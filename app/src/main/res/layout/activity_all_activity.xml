@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@color/blue"
+    android:layout_height="match_parent"
+    tools:context="me.developeralfa.jaanekyadekhoge.All_activity">
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_margin="35dp"
+        android:onClick="Handloom"
+        android:background="@mipmap/handi"/>
+    <ImageButton
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:scaleType="centerInside"
+        android:layout_weight="1"
+        android:layout_margin="35dp"
+        android:onClick="aaspas"
+        android:background="@mipmap/kumbhalgarh"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_margin="35dp"
+        android:layout_weight="1"
+        android:onClick="Planner"
+        android:background="@mipmap/jaipur"/>
+
+</LinearLayout>

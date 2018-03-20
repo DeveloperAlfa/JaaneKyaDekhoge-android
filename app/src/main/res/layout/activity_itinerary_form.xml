@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/sharp"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context="me.developeralfa.jaanekyadekhoge.ItineraryForm">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:layout_weight="1"
+            android:layout_marginLeft="35dp"
+            android:text="Days"/>
+        <EditText
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:id="@+id/day"
+            android:gravity="center"
+            android:background="@drawable/shape"
+            android:layout_marginLeft="35dp"
+            android:layout_marginRight="35dp"
+            android:inputType="number"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        android:layout_weight="9">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:textColor="@color/white"
+
+            android:layout_marginLeft="35dp"
+            android:text="Reason for Visit"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:id="@+id/plan"
+            android:layout_marginLeft="35dp"
+            android:layout_marginRight="35dp"
+            android:background="@drawable/shape"
+            android:inputType="textLongMessage"
+            android:layout_height="0dp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        android:layout_weight="1">
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Submit"
+            android:onClick="submit"/>
+    </LinearLayout>
+
+</LinearLayout>
